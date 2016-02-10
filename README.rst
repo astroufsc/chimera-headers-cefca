@@ -25,7 +25,7 @@ Installation
 
 ::
 
-    pip install -U git+https://github.com/astroufsc/chimera-headers.git
+    pip install -U git+https://github.com/astroufsc/chimera-headers-cefca.git
 
 
 Configuration Example
@@ -57,7 +57,7 @@ you want to override the ``getMetadata()`` method.
         name: site
         site: /Site/MyObservatory
 
-**NOTE:** ``chimera-headers`` does not checks if the location of the object is of the type to be configured, so if you do
+**NOTE:** ``chimera-headers-cefca`` does not checks if the location of the object is of the type to be configured, so if you do
 ``dome: /FakeCamera/fake`` you won't be alerted by your mistake.
 
 Modified header example
@@ -138,4 +138,4 @@ For more information, contact us on chimera's discussion list:
 https://groups.google.com/forum/#!forum/chimera-discuss
 
 Bug reports and patches are welcome and can be sent over our GitHub page:
-https://github.com/astroufsc/chimera-headers/
+https://github.com/astroufsc/chimera-headers-cefca/
